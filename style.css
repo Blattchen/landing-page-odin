@@ -127,3 +127,35 @@ a {
     font-size: 24px;
     font-weight: bolder;
 }
+
+.actionbox{
+    padding: 90px 200px;
+}
+.containeraction{
+    background-color: #3882f6;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+.actionbig{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.actiontext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.action {
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    flex: none
+}
