@@ -25,12 +25,15 @@ a {
     font-size: 18px;
     font-weight: 100;
 }
-.container {
-}
 
 .herobox{
     background-color: #1f2937;
     padding: 0 200px;
+}
+
+.infobox{
+    padding: 30px 200px;
+    text-align: center;
 }
 .header {
     display: flex;
@@ -70,4 +73,36 @@ a {
     color: #c4c4c4;
     font-size: 18px;
     padding-bottom: 16px;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 42px;
+
+
+}
+.img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+.txt{
+    font-size: 18px;
+    color: #808080;
+}
+.infoheader {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+}
+.imgtxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 168px;
 }
