@@ -5,6 +5,17 @@ body {
     margin: 0;
     font-family: Roboto, 'Open Sans', sans-serif;
 }
+.logo{
+    width: 100px;
+    height: auto;
+
+    padding-top: 30px;
+}
+
+.island {
+    width: 400px;
+    height: auto;
+}
 
 ul {
     display: flex;
@@ -53,7 +64,8 @@ a {
 }
 .hero {
     display: flex;
-    margin: 90px 0;
+    margin-top: 60px;
+    margin-bottom: 90px;
     justify-content: space-between;
     gap: 32px;
     align-items: center;
