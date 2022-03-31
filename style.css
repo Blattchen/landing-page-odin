@@ -159,3 +159,12 @@ a {
     color: #F9FAF8;
     flex: none
 }
+
+.footer{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 18px;
+
+}
